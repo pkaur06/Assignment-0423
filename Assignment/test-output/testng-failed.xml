@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="assignment.TestComponents.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Customer test(failed)">
+    <classes>
+      <class name="assignment.tests.CustomerTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="CustomerTest" invocation-numbers="0 1 2 3 4 5 6"/>
+          <include name="launchApplication"/>
+        </methods>
+      </class> <!-- assignment.tests.CustomerTests -->
+    </classes>
+  </test> <!-- Customer test(failed) -->
+  <test thread-count="5" name="Transactions test(failed)">
+    <classes>
+      <class name="assignment.tests.TransactionsTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="TransTest" invocation-numbers="0"/>
+          <include name="launchApplication"/>
+        </methods>
+      </class> <!-- assignment.tests.TransactionsTest -->
+    </classes>
+  </test> <!-- Transactions test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

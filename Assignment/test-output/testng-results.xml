@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-07T10:48:13Z" name="Suite" finished-at="2023-04-07T10:49:00Z" duration-ms="46823">
+    <groups>
+      <group name="Suite">
+        <method signature="CustomerTests.CustomerTest(java.util.HashMap)[pri:0, instance:assignment.tests.CustomerTests@3234f74e]" name="CustomerTest" class="assignment.tests.CustomerTests"/>
+        <method signature="TransactionsTest.TransTest(java.util.HashMap)[pri:0, instance:assignment.tests.TransactionsTest@4f2613d1]" name="TransTest" class="assignment.tests.TransactionsTest"/>
+      </group> <!-- Suite -->
+    </groups>
+    <test started-at="2023-04-07T10:48:13Z" name="Customer test" finished-at="2023-04-07T10:48:53Z" duration-ms="40405">
+      <class name="assignment.tests.CustomerTests">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:assignment.tests.CustomerTests@3234f74e]" started-at="2023-04-07T10:48:13Z" name="launchApplication" finished-at="2023-04-07T10:48:17Z" duration-ms="3955" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="CustomerTest(java.util.HashMap)[pri:0, instance:assignment.tests.CustomerTests@3234f74e]" started-at="2023-04-07T10:48:17Z" name="CustomerTest" data-provider="getData" finished-at="2023-04-07T10:48:21Z" duration-ms="3780" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{LastName=Connely, PostCode=L789C349, FirstName=Christopher}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:assignment.tests.CustomerTests@3234f74e]" started-at="2023-04-07T10:48:21Z" name="tearDown" finished-at="2023-04-07T10:48:21Z" duration-ms="236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:assignment.tests.CustomerTests@3234f74e]" started-at="2023-04-07T10:48:21Z" name="launchApplication" finished-at="2023-04-07T10:48:23Z" duration-ms="2301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="CustomerTest(java.util.HashMap)[pri:0, instance:assignment.tests.CustomerTests@3234f74e]" started-at="2023-04-07T10:48:23Z" name="CustomerTest" data-provider="getData" finished-at="2023-04-07T10:48:26Z" duration-ms="2880" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{LastName=Christopher, PostCode=A897N450, FirstName=Frank}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:assignment.tests.CustomerTests@3234f74e]" started-at="2023-04-07T10:48:26Z" name="tearDown" finished-at="2023-04-07T10:48:26Z" duration-ms="248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:assignment.tests.CustomerTests@3234f74e]" started-at="2023-04-07T10:48:26Z" name="launchApplication" finished-at="2023-04-07T10:48:29Z" duration-ms="2201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="CustomerTest(java.util.HashMap)[pri:0, instance:assignment.tests.CustomerTests@3234f74e]" started-at="2023-04-07T10:48:29Z" name="CustomerTest" data-provider="getData" finished-at="2023-04-07T10:48:31Z" duration-ms="2646" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{LastName=Minka, PostCode=M098Q585, FirstName=Christopher}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:assignment.tests.CustomerTests@3234f74e]" started-at="2023-04-07T10:48:31Z" name="tearDown" finished-at="2023-04-07T10:48:32Z" duration-ms="251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:assignment.tests.CustomerTests@3234f74e]" started-at="2023-04-07T10:48:32Z" name="launchApplication" finished-at="2023-04-07T10:48:34Z" duration-ms="2230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="CustomerTest(java.util.HashMap)[pri:0, instance:assignment.tests.CustomerTests@3234f74e]" started-at="2023-04-07T10:48:34Z" name="CustomerTest" data-provider="getData" finished-at="2023-04-07T10:48:37Z" duration-ms="2913" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{LastName=Jackson, PostCode=L789C349, FirstName=Connely}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:assignment.tests.CustomerTests@3234f74e]" started-at="2023-04-07T10:48:37Z" name="tearDown" finished-at="2023-04-07T10:48:37Z" duration-ms="231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:assignment.tests.CustomerTests@3234f74e]" started-at="2023-04-07T10:48:37Z" name="launchApplication" finished-at="2023-04-07T10:48:39Z" duration-ms="2229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="CustomerTest(java.util.HashMap)[pri:0, instance:assignment.tests.CustomerTests@3234f74e]" started-at="2023-04-07T10:48:39Z" name="CustomerTest" data-provider="getData" finished-at="2023-04-07T10:48:42Z" duration-ms="3338" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{LastName=Frank, PostCode=L789C349, FirstName=Jackson}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:assignment.tests.CustomerTests@3234f74e]" started-at="2023-04-07T10:48:42Z" name="tearDown" finished-at="2023-04-07T10:48:43Z" duration-ms="283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:assignment.tests.CustomerTests@3234f74e]" started-at="2023-04-07T10:48:43Z" name="launchApplication" finished-at="2023-04-07T10:48:45Z" duration-ms="2359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="CustomerTest(java.util.HashMap)[pri:0, instance:assignment.tests.CustomerTests@3234f74e]" started-at="2023-04-07T10:48:45Z" name="CustomerTest" data-provider="getData" finished-at="2023-04-07T10:48:48Z" duration-ms="2850" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{LastName=Jackson, PostCode=A897N450, FirstName=Minka}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:assignment.tests.CustomerTests@3234f74e]" started-at="2023-04-07T10:48:48Z" name="tearDown" finished-at="2023-04-07T10:48:48Z" duration-ms="181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:assignment.tests.CustomerTests@3234f74e]" started-at="2023-04-07T10:48:48Z" name="launchApplication" finished-at="2023-04-07T10:48:50Z" duration-ms="2138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="CustomerTest(java.util.HashMap)[pri:0, instance:assignment.tests.CustomerTests@3234f74e]" started-at="2023-04-07T10:48:50Z" name="CustomerTest" data-provider="getData" finished-at="2023-04-07T10:48:53Z" duration-ms="2698" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{LastName=Connely, PostCode=L789C349, FirstName=Jackson}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:assignment.tests.CustomerTests@3234f74e]" started-at="2023-04-07T10:48:53Z" name="tearDown" finished-at="2023-04-07T10:48:53Z" duration-ms="242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- assignment.tests.CustomerTests -->
+    </test> <!-- Customer test -->
+    <test started-at="2023-04-07T10:48:54Z" name="Transactions test" finished-at="2023-04-07T10:49:00Z" duration-ms="6125">
+      <class name="assignment.tests.TransactionsTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:assignment.tests.TransactionsTest@4f2613d1]" started-at="2023-04-07T10:48:54Z" name="launchApplication" finished-at="2023-04-07T10:48:56Z" duration-ms="2179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="TransTest(java.util.HashMap)[pri:0, instance:assignment.tests.TransactionsTest@4f2613d1]" started-at="2023-04-07T10:48:56Z" name="TransTest" data-provider="getData" finished-at="2023-04-07T10:48:59Z" duration-ms="3702" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Account=1003, Balance=26500, Name=Hermoine Granger}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TransTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:assignment.tests.TransactionsTest@4f2613d1]" started-at="2023-04-07T10:48:59Z" name="tearDown" finished-at="2023-04-07T10:49:00Z" duration-ms="237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- assignment.tests.TransactionsTest -->
+    </test> <!-- Transactions test -->
+  </suite> <!-- Suite -->
+</testng-results>
